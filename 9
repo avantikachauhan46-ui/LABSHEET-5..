@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+    int choice;
+    cout << "Enter a choice (1–3): ";
+    cin >> choice;
+
+    switch (choice) {
+        case 1:
+            cout << "You selected option 1.";
+            break;
+        case 2:
+            cout << "You selected option 2.";
+            break;
+        case 3:
+            cout << "You selected option 3.";
+            break;
+        default:
+            cout << "Invalid choice! Default case executed.";
+    }
+    return 0;
+}
